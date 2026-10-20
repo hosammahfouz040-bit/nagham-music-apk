@@ -63,5 +63,5 @@ uses: actions/checkout@v4
     uses: actions/upload-artifact@v4
     with:
       name: Nagham-Music-APK
-      path: ${{ env.PROJECT_DIR }}/android/app/build/outputs/apk/debug/*.apk
+      path: "${{ env.PROJECT_DIR }}/android/app/build/outputs/apk/debug/*.apk"
       if-no-files-found: error
